@@ -1,0 +1,61 @@
+JavaScript 
+
+- MÓDULO B
+. Armazendo dados
+. Tratamento de dados
+. Operações com dados
+
+window.alert() ou alert()     \\ Mostra um alerta na pagina que está sendo programada com a palavra ok embaixo.
+window.confirm() ou confirm  \\ Mostra um alerta na pagina que está sendo programada com a palavra ok e cancel embaixo.
+window.prompt() \\ Mostra um alerta na pagina que está sendo programada com algo para digitar e confimar ou cancelar embaixo.
+document.write() \\ Escreve na tela da pagina.
+
+- COMENTÁRIOS
+//  Comentário de uma linha.
+/* */ Comnetário de várias linhas.
+
+NOMES DE VARIÁVEIS OU IDENTIFICADORES
+° Podem começar com letra, $ ou _
+° Não podem começar com números
+° É possível usar letras ou números
+° É possível usar acentos e símbolos
+° Não podem conter espaços
+° Não podem ser palavras reservadas
+
+DICAS
+° Maiúsculas e minúsculas fazem diferença
+° Tente escolher nomes coerentes para as variáveis
+
+DATA TYPES
+ typeof
+° number
+       Infinity
+       NaN
+° string
+° boolean
+° null
+° underfined
+° object
+       Array
+° function
+
+Ctrl + l // Limpa a tela do nodejs
+
+STRING PARA NÚMERO
+° Number.parseInt(x)
+°Number.parseFloat(x)
+°Number
+
+NÚMERO PARA STRING
+°String(x)
+x.toString()
+x.length // Comprimento da string
+x.toUpperCase() // Joga para maiúscula
+x.toLowerCase() // Joga para minúscula
+
+x.toFixed(2) // Aumenta para duas casas decimais
+x.toFixed(2).replace('.', ',') //Aumenta para duas casas decimais e troca o ponto por virgula
+x.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) //Converção de moeda para real
+
+
+
