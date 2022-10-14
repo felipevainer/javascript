@@ -57,5 +57,67 @@ x.toFixed(2) // Aumenta para duas casas decimais
 x.toFixed(2).replace('.', ',') //Aumenta para duas casas decimais e troca o ponto por virgula
 x.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) //Converção de moeda para real
 
+OPERADORES 
+° aritméticos
++
+-
+*
+/
+%
+**
+1.1 - Ordem de precedência
+()
+**
+* / %
++ -
+
+1.2 - Auto-Atribuição
+var n = 3
+n = n + 4
+
+1.3 - Simplificando
+n += 4
+
+1.4 - Pós incremento e decremento
+x++
+x--
+
+1.5 - Pré incremento e pré decremento
+++x
+--x
+
+° atribuição
+° relacionais
+> maior que
+< menor que
+>= maior ou igual
+<= nenor ou igual
+== igual
+!= diferente
+
+1.6 - Identidade
+5 == 5 true
+5 == '5' true
+5 === '5' false
+5 !== '5' true
+
+°lógicos
+! não
+&& e
+|| ou
+
+°ternário
+teste?true:false
+média >= 7 ? "aprovado" : "reprovado"
+
+DOM (DOCUMENT OBJECT MODEL)
+1.1 - Àrvore DOM
+	window
+location - document - history
+	HTML
+             head   body
+         meta - title    h1 - p - div
+	                  strong
+
 
 
