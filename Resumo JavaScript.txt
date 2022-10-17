@@ -119,5 +119,27 @@ location - document - history
          meta - title    h1 - p - div
 	                  strong
 
+window.document.write(window.navigator.appName) // Descubro o nome do navegador
+window.document.write(window.documentr.charset) // Descubro a configuração das letras
+window.document.write(window.document.URL) // Descubro a url do site
+
+o dom pode ser selecionado por marca, id, nome, classe e seletor.
+Marca - getElementsByTagName() ex: var p1 = window.document.getElementsByTagName('p')[0]  window.document.write('Está escrito assim: ' + p1.innerText) document.write(p1.innerHTML)
+Id - getElementById() ex: 
+Name - getElementsByName() ex:
+Classe - getElementsByClassName()
+seletor - querySelector() querySelectorAll()
+
+EVENTOS DOM
+mouseenter
+mousedown
+click
+mousemove
+mouseup
+mouseout
+
+a.addEventListener('click', clicar) // Função para acontecer um evento ao clicar em algo especifico
+
+
 
 
