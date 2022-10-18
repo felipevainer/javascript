@@ -140,6 +140,14 @@ mouseout
 
 a.addEventListener('click', clicar) // Função para acontecer um evento ao clicar em algo especifico
 
+CONDIÇÕES
+if(condição) {} else {}
+
+var agora = new Date()                (Exemplo para pegar a hora atual da maquina)
+var hora = agora.getHours()
+
+switch(expressão){case valor1: break valor2: break  valor3:  break default:}      (Condição múltipla para testar dados pontuais)
+
 
 
 
