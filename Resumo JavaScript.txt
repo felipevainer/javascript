@@ -148,6 +148,15 @@ var hora = agora.getHours()
 
 switch(expressão){case valor1: break valor2: break  valor3:  break default:}      (Condição múltipla para testar dados pontuais)
 
+document.createElement('img')  // Neste exemplo cria uma tag img atravez do JavaScript
+img.setAttribute('id', 'foto') // Cria uma id para tag img chamada foto
+res.appendChild(img) // O res foi criada como id e adiciona o filho img
+
+REPETIÇÕES
+while(condição){} // Estrutura de repetição com teste lógico no ínicio
+do{} while(condição) // Estrutura de repetição com teste lógico no final
+for(inicio; teste; incremento){} // Estrutura de repetição
+ 
 
 
 
