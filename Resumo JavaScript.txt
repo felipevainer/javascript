@@ -156,7 +156,28 @@ REPETIÇÕES
 while(condição){} // Estrutura de repetição com teste lógico no ínicio
 do{} while(condição) // Estrutura de repetição com teste lógico no final
 for(inicio; teste; incremento){} // Estrutura de repetição
- 
+
+ARRAY VARIÁVEIS COMPOSTAS
+variáveis simples só conseguem armazenar um valor por vez. var n = 1
+variáveis compostas devem ser capazes de armazenar vários valores em uma mesma estrutura. var n = [1, 2, 3, 4, 5, 6]
+podemos adicionar mais elementos dentro do vetor.            var n[3] = 7             n.push(7)
+Para saber o comprimento de um array.    n.length
+Colocar os elementos em ordem crescente.    n.sort()
+Para buscar um valor dentro do array.   n.indexOf(7)
+
+exemplo:
+let valores = [8, 1, 7, 4, 2, 9]						
+for(let pos in valores){						
+    console.log(`A posição ${pos} tem o valor ${valores[pos]}`)
+}
+
+let valores = [8, 1, 7, 4, 2, 9]
+for(let pos = 0; pos < valores.length; pos++){
+    console.log(`A posição ${pos} tem o valor ${valores[pos]}`)
+}
+
+FUNÇÕES
+São ações executadas assim que são chamadas ou em decorrência de algum evento.
 
 
 
