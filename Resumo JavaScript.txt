@@ -179,5 +179,14 @@ for(let pos = 0; pos < valores.length; pos++){
 FUNÇÕES
 São ações executadas assim que são chamadas ou em decorrência de algum evento.
 
+Daqui pra frente:
+functions
+objetos
+modularização
+RegEx
+JSON
+AJAX
+NodeJS
+
 
 
